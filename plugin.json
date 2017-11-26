@@ -1,0 +1,23 @@
+{
+  "name": "mail_settings",
+  "version": "1.0",
+  "description": {
+    "en": "Mail UI",
+    "ru": "Mail UI",
+    "uk": "Mail UI"
+  },
+  "url": "https://github.com/pytsite/plugin-mail_settings",
+  "author": {
+    "name": "Alexander Shepetko",
+    "email": "a@shepetko.com",
+    "url": "https://shepetko.com"
+  },
+  "requires": {
+    "packages": [],
+    "plugins": [
+      "permissions",
+      "settings",
+      "widget"
+    ]
+  }
+}
