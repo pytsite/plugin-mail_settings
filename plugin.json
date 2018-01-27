@@ -1,10 +1,10 @@
 {
   "name": "mail_settings",
-  "version": "1.2",
+  "version": "1.3",
   "description": {
-    "en": "Mail UI",
-    "ru": "Mail UI",
-    "uk": "Mail UI"
+    "en": "Mail Settings",
+    "ru": "Mail Settings",
+    "uk": "Mail Settings"
   },
   "url": "https://github.com/pytsite/plugin-mail_settings",
   "author": {
@@ -15,8 +15,7 @@
   "requires": {
     "packages": [],
     "plugins": [
-      "permissions",
-      "settings",
+      "settings>=1.3",
       "widget"
     ]
   }
