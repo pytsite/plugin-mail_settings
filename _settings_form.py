@@ -13,7 +13,7 @@ class Form(_settings.Form):
         self.add_widget(_widget.input.Email(
             uid='setting_from',
             weight=10,
-            label=_lang.t('mail@default_sender_address'),
+            label=_lang.t('mail_settings@default_sender_address'),
             required=True,
         ))
 
