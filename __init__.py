@@ -1,17 +1,14 @@
 """PytSite Mail Settings Plugin
 """
-
-__author__ = 'Alexander Shepetko'
+__author__ = 'Oleksandr Shepetko'
 __email__ = 'a@shepetko.com'
 __license__ = 'MIT'
 
 
 def plugin_load_wsgi():
-    from pytsite import lang, router, reg
+    from pytsite import router, reg
     from plugins import settings
     from . import _settings_form
-
-    lang.register_package(__name__)
 
     settings.define('mail', _settings_form.Form, 'mail_settings@mail', 'fa fa-envelope', 'dev')
 
