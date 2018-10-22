@@ -1,6 +1,6 @@
 {
   "name": "mail_settings",
-  "version": "2.0",
+  "version": "2.1",
   "description": {
     "en": "Mail Settings",
     "ru": "Mail Settings",
@@ -16,7 +16,7 @@
     "pytsite": ">=8",
     "plugins": {
       "settings": "2.x",
-      "widget": "3.x"
+      "widget": "4.x"
     }
   }
 }
